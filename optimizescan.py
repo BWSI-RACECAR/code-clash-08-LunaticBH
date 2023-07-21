@@ -37,7 +37,7 @@ class Solution:
         # Input type: Integer
         # return type: float
         p = float(battcap / 250)
-        return ((p * p) / 4) - ((p * p) / 16) 
+        return ((p * p) / 4) - 2 * ((p * p) / 16) 
         pass 
 
 def main():
