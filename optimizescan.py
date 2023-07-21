@@ -37,7 +37,7 @@ class Solution:
         # Input type: Integer
         # return type: float
 
-        return (float(battcap / 250) * float(battcap / 250)) * 8
+        return (float(battcap / 250) * float(battcap / 250)) / 8
         pass 
 
 def main():
