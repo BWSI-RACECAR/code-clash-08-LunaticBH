@@ -36,8 +36,8 @@ class Solution:
     def optimizescan(self, battcap):
         # Input type: Integer
         # return type: float
-
-        return (float(battcap / 250) * float(battcap / 250)) / 8
+        p = float(battcap / 250)
+        return ((p * p) / 4) - ((p * p) / 16) 
         pass 
 
 def main():
